@@ -100,7 +100,7 @@ public class ServerClass{
                     out.println(n1 + n2);
                 else if(operator.equals("-"))
                     out.println(n1 - n2);
-                else if(operator.equals("*") || operator.equalsIgnoreCase("*"))
+                else if(operator.equals("*") || operator.equalsIgnoreCase("x"))
                     out.println(n1 * n2);
                 else
                     if(operator.equals(":") || operator.equals("/"))
